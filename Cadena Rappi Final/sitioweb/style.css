@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/* utilidades */
+
+.d-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
+    margin: 30px 0;
+}
+
+.container {
+    position: relative;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+/* utilidades */
+
+/* Header */
+
+.landing-page {
+    height: 100vh;
+    background-image: url('https://www.efficy.com/wp-content/uploads/2020/09/diferencias-grandes-empresas-pymes.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.cover {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    right: 0px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.navigation {
+    position: relative;
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 30px;
+    font-size: 25px;
+    border-bottom: 2px solid transparent;
+}
+
+.presentation {
+    position: relative;
+    align-self: center;
+    margin: auto;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.presentation img {
+    width: 100%;
+}
+
+.presentation p {
+    color: #fff;
+    font-size: 20px;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.presentation a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+
+/* Header */
+
+/* Productos */
+
+.products .card{
+    width: 23%;
+    height: 300px;
+}
+
+.products .card .imgBox{
+    width: 100%;
+    height: 200px;
+}
+
+.products .card .imgBox img{
+    width: 100%;
+    height: 100%;
+}
+.info{
+    align-items: center;
+}
+
+/* Productos */
+
+/* Compañias */
+
+.box-company {
+    width: 23%;
+    height: 200px;
+}
+
+.box-company a img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Compañias */
+
+/* Nosostros */
+
+.card-person{
+    width: 30%;
+    height: 400px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.img-box-person {
+    width: 100%;
+    height:250px;
+}
+
+.img-box-person img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.info-person h3{
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.info-person p{
+    text-align: center;
+    font-size: 18;
+    color: #707070;
+}
+/* Nosostros */
+
+footer{
+    background-color: #000;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p{
+    color: #fff;
+    font-size: 25px;
+}
